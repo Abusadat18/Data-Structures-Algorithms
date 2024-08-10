@@ -8,4 +8,10 @@ public class Utility {
         }
         System.out.print("]");
     }
+
+    public static void swapInArray(int[] arr, int a, int b){
+        int temp = arr[a];
+        arr[a] = arr[b];
+        arr[b] = temp;
+    }
 }

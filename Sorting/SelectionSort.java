@@ -1,5 +1,7 @@
 package Sorting;
 
+import utilities.Utility;
+
 public class SelectionSort {
     public static void sort (int[] arr){
         for (int i=0 ; i<=arr.length-2 ; i++){
