@@ -1,11 +1,10 @@
-import Hashing.CountDigit;
-
-import java.util.Map;
+import Sorting.*;
+import utilities.*;
 
 public class Main {
     public static void main(String[] args) {
-        int[] arr = {1,1,3,4,5,5};
-        Map<Integer,Integer> Hashed = CountDigit.doMapping(arr);
-        System.out.println(Hashed);
+        int[] arr = {4,3,2,1,5};
+        SelectionSort.sort(arr);
+        Utility.printArr(arr);
     }
 }
